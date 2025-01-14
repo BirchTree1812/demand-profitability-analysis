@@ -19,5 +19,3 @@ Your analysis should include the following:
 1. Calculate the demand elasticity for each product
 2. Determine the optimal prices for each product to maximize profitability
 3. Analyze the impact of price changes on overall demand and profitability
-
-*Note: This assignment is 67% complete.*
