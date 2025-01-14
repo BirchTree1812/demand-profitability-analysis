@@ -1,15 +1,23 @@
-Overview
-You are a marketing analytic consultant doing category analysis for a multi-product
-category. You are asked to perform pricing and proﬁtability analysis for this category. The
-market has three products sold by di erent ﬁrms: 1, 2, and 3. You have been informed that
-the marginal cost of the products are $C1 = 0.5$, $C2 = 0.75$, $C3 = 0.9$, and the retail margin for
-all the products is 10%. Denote the prices of the three products as P1, P2, P3. Based on the
-demand models that your data science team has run on the sales and pricing data for this
-category, you know that the own and cross price elasticities for the three products can be
-speciﬁed using the following demand system:
-𝑄 =𝐴 𝑃 . 𝑃 . 𝑃 .
-𝑄 =𝐴 𝑃 . 𝑃 . 𝑃 .
-𝑄 =𝐴 𝑃 . 𝑃 . 𝑃 .
-Further, the base prices of three products are given as: P1 = $2, P2 = $1.75 and P3 = $1.5.
-Please answer the following questions based on this information. (Note: You are not given
-information on A1, A2, and A3.)
+# Demand and Profitability Analysis for a Multi-Product Category
+
+As a marketing analytic consultant, you are tasked with performing pricing and profitability analysis for a multi-product category with three products sold by different firms.
+
+The demand system equation is as follows:
+
+$$ A_1 \cdot P_1^{-1} + A_2 \cdot P_2^{-1} + A_3 \cdot P_3^{-1} = 1 $$
+
+Where:
+- $P_1, P_2, P_3$ are the prices of the three products
+- $A_1, A_2, A_3$ are constants that represent the demand elasticity for each product
+
+The base prices for the products are as follows:
+- Product 1: $100
+- Product 2: $150
+- Product 3: $200
+
+Your analysis should include the following:
+1. Calculate the demand elasticity for each product
+2. Determine the optimal prices for each product to maximize profitability
+3. Analyze the impact of price changes on overall demand and profitability
+
+*Note: This assignment is 67% complete.*
